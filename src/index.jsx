@@ -2,13 +2,15 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import Komponenta from './components/Komponenta';
+import About from './components/About';
+import Products from './components/Products';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
     <>
-      <h1>Práce v lekci 9</h1>
-      <Komponenta />
+      <h1>Práce v lekci 11</h1>
+      <About />
     </>
   );
 }
