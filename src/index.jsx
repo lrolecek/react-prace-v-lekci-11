@@ -16,6 +16,7 @@ import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
 import Detail from './components/Detail';
+import Person from './components/Person';
 
 const App = () => {
   return (
@@ -37,7 +38,10 @@ const App = () => {
         <Route path="/about" element={ <About /> } />
         <Route path="/products" element={ <Products /> } />
         <Route path="/products/:id" element={ <Detail /> } />
+
         <Route path="/contact" element={ <Contact /> } />
+        <Route path="/contact/:personid" element={ <Person /> } />
+
         <Route path="*" element={ <NotFound /> } />
       </Routes>
     </BrowserRouter>
