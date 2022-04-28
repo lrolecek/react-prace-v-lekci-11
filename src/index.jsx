@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 
 
+import Home from './components/Home';
 import About from './components/About';
 import Products from './components/Products';
 import Contact from './components/Contact';
@@ -20,7 +21,9 @@ const App = () => {
       <h1>Práce v lekci 11</h1>
 
       <nav>
-        <Link to="/">About</Link>
+        <Link to="/">Home</Link>
+        |
+        <Link to="/about">About</Link>
         |
         <Link to="/products">Products</Link>
         |
@@ -28,7 +31,8 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="/" element={ <About /> } />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/about" element={ <About /> } />
         <Route path="/products" element={ <Products /> } />
         <Route path="/contact" element={ <Contact /> } />
       </Routes>
