@@ -17,7 +17,7 @@ const Person = () => {
 				setPerson(data);
 			})
 		},
-		[]
+		[personid]
 	)
 
 	return (
