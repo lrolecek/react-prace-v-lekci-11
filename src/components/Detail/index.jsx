@@ -12,7 +12,7 @@ const produkty = [
 
 
 const Detail = () => {
-	const {id} = useParams();
+	const {kategorie, id} = useParams();
 
 	const produkt = produkty.find(prod => prod.id === Number(id) );
 
@@ -20,6 +20,7 @@ const Detail = () => {
 	return (
 		<div className="komponenta">
 			<h3>{produkt.nazev}</h3>
+			<h3>kategorie produktu: {kategorie}</h3>
 			<p>ID produktu: {id}</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, dolor!</p>
 

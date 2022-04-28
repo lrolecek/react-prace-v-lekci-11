@@ -11,9 +11,9 @@ const Products = () => {
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, dolor!</p>
 
 			<ul>
-				<li><Link to="/products/1">Pračka AEG</Link></li>
-				<li><Link to="/products/2">Vysavač LUX</Link></li>
-				<li><Link to="/products/3">Myčka BOSCH</Link></li>
+				<li><Link to="/products/pracky/1">Pračka AEG</Link></li>
+				<li><Link to="/products/vysavace/2">Vysavač LUX</Link></li>
+				<li><Link to="/products/mycky/3">Myčka BOSCH</Link></li>
 			</ul>
 
 		</div>

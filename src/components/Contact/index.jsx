@@ -28,7 +28,7 @@ const Contact = () => {
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, dolor!</p>
 			<ul>
 				{
-					contacts.map(person => <li><Link to={`/contact/${person.id}`}>{person.name}</Link></li>)
+					contacts.map(person => <li><Link to={`/person/${person.id}`}>{person.name}</Link></li>)
 				}
 			</ul>
 		</div>
